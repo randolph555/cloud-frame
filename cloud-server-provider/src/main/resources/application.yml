@@ -1,0 +1,11 @@
+server:
+  port: 7071
+spring:
+  application:
+    name: cloud-server-provider
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9090/eureka
+    fetch-registry: true
+    register-with-eureka: true
